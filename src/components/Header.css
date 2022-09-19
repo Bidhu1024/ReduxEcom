@@ -1,0 +1,31 @@
+.header{
+    background-color:rgb(220, 176, 96);
+    height:100px;
+
+}
+.cart-div{
+    float: right;
+    margin: 25px;
+    position: relative;
+
+}
+
+.cart-div img{
+    width: 30px;
+    cursor: pointer;
+
+}
+.cart-div span{
+    position:absolute;
+    z-index: 5;
+    background-color: green;
+    height: 20px;
+    border-radius: 20%;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+    color: aliceblue;
+    top: -15px;
+    right: 0;
+}
